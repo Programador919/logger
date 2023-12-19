@@ -1,0 +1,88 @@
+body{
+    background-color: 	#B5B2B2;
+}
+
+.container {
+    display: flex;
+}
+.infoProd{
+    border: 2px solid white;
+    width: 48%;
+}
+.formulario{
+    border: 2px solid white;
+    width: 48%;
+    padding: 10px 50px 50px 50px;
+}
+.formulario input, select{
+    width: 50%;
+    margin-top: 20px;
+}
+.inputs{
+    display: flex;
+}
+.botones{
+    margin-top: 50px;
+}
+.detalleProd table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.detalleProd th,
+.detalleProd td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.detalleProd th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.detalleProd tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.detalleProd tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Estilos para los inputs */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el foco del input */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega un efecto de sombra al enfocar */
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
